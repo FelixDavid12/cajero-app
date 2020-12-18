@@ -1,6 +1,8 @@
 import vueRouter from 'vue-router'
 import User from './components/User'
 import UserBalance from './components/UserBalance'
+import UserAuth from './components/UserAuth'
+import UserTransaction from './components/UserTransaction'
 import App from './App'
 
 const router = new vueRouter({
@@ -12,7 +14,6 @@ const router = new vueRouter({
       name: "root",
       component: App
     },
-
     {
       path: '/user/:username',
       name: "user",
@@ -22,6 +23,16 @@ const router = new vueRouter({
       path: '/user/balance/:username',
       name: "user_balance",
       component: UserBalance
+    },
+    {
+      path: '/user/auth',
+      name: "user_auth",
+      component: UserAuth
+    },
+    {
+      path: '/user/transaction/:username',
+      name: "user_transaction",
+      component: UserTransaction
     },
   ]
 })
