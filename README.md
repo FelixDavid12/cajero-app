@@ -1,6 +1,7 @@
-# cajero_app
+# Cajero APP, Misión TIC 2022
 
-> A Vue.js project
+Front-end del proyecto Cajero, realizado para el Ciclo III de la Ruta 2 de Misión TIC 2022. 
+
 
 ## Build Setup
 
